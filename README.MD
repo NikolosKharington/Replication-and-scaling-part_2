@@ -145,6 +145,7 @@
 ---
 
 ## 5. Схема размещения компонентов
+```mermaid
 flowchart TB
     A[Приложение]
 
@@ -161,4 +162,5 @@ flowchart TB
     %% STORES
     A -->|read / write| S1[Stores<br/>Shard 1]
     A -->|read / write| S2[Stores<br/>Shard 2]
+```
 
